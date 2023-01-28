@@ -1,53 +1,15 @@
-// global variables 
-let testTime = "13:00";
+// global variables
+let testTime = 9;
 let currentDayEl = $("#currentDay");
-let currentTime = parseInt(moment().format("LT"));
+let currentTime = moment().format("HH");
 let rowEl = $(".row");
-let hour1 =$("");
+let hourEl = $(".hour");
+let textArea = $(".time-block");
+let hour1 = $("#hour1")
+let hourNeeded;
 // set todays date.
-currentDayEl.text(moment().format('DD-MM-YY'));
-// 
-// 
-// 
-// 
-// 
+currentDayEl.text(moment().format("DD-MM-YY"));
 
+let timeNeed = rowEl.attr('data-time');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// time conditions
-
-// console.log(currentTime);
-// // break it down code.
-
-// let timeId =(parseInt($(".hour").html()));
-
-// if (timeId < currentTime) {
-//     rowEl.addClass("past");
-    
-// } else if (timeId >= currentTime){
-//     rowEl.addClass("present");
-// }
-
-
-// console.log(timeId);
+console.log(timeNeed);
