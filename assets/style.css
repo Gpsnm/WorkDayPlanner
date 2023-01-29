@@ -31,8 +31,7 @@ textarea {
 
 .time-block {
   text-align: center;
-  padding-left: 0 !important;
-  border: 2px solid black;
+  padding-left: 15px;
 }
 
 .row {
