@@ -32,6 +32,7 @@ textarea {
 .time-block {
   text-align: center;
   padding-left: 0 !important;
+  border: 2px solid black;
 }
 
 .row {
@@ -63,7 +64,7 @@ textarea {
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
