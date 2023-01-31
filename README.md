@@ -14,4 +14,4 @@ Project is created with HTML BOOTSTRAP CSS AND JQUERY
 
 ## Link to live site
 
-
+https://gpsnm.github.io/WorkDayPlanner/
